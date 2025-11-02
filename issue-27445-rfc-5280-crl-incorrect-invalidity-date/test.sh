@@ -1,0 +1,1 @@
+ openssl verify -crl_check -x509_strict -CAfile root_cert.crt -CRLfile crl_revoked_inv_date_utc_.pem ca1.crt
